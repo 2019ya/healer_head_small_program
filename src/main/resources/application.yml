@@ -1,0 +1,8 @@
+server:
+  port: 40005
+  servlet:
+    context-path: /healer_header
+
+spring:
+  profiles:
+    active: test

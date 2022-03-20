@@ -1,0 +1,23 @@
+server:
+  port: 12345
+  servlet:
+    context-path: /healer_header
+
+http:
+  port: 40005
+
+spring:
+  data:
+    mongodb:
+      host: 39.108.178.229
+      port: 52999
+      database: tododb_header_test
+  redis:
+    host: 39.108.178.229
+    port: 51555
+    password: wFf!wgqnyxbvMvPuc7VC$CUNnnMvIHnX
+    db: 1
+
+weixin:
+  appid: aaa
+  secret: bbb
